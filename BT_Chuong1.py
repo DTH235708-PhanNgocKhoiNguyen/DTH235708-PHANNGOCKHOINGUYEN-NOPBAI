@@ -36,6 +36,17 @@ print('Mình về mình có nhớ ta\n' \
     'Mình về mình có nhớ không?\n' \
     'Nhìn cây nhớ núi, nhìn sông nhớ nguồn')
 
+#BT7
+import sys
+
+if __name__ == "__main__":
+  if len(sys.argv) > 1:
+    input_string = " ".join(sys.argv[1:])
+    print(input_string)
+  else:
+    print("Vui lòng nhập chuỗi ký tự làm tham số dòng lệnh.")
+     
+
 #BT8
 print('\n')
 print('* * * *\n')
